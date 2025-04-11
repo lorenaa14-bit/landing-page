@@ -1,0 +1,101 @@
+/* Menú de navegació */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #f0f0f0;
+}
+
+/* Contingut principal */
+.landing-container {
+    background-color: #8796b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* Capçalera */
+.header {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Subtítol */
+.product-subtitle {
+    font-size: 1.2em;
+    color: rgb(250, 252, 250);
+}
+
+/* Imatge destacada */
+.hero-image-container {
+    position: relative;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Text sobre imatge */
+.hero-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Descripció del producte */
+.product-description {
+    font-size: 1em;
+    color: rgb(236, 226, 226);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Botó CTA */
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Peu de pàgina */
+.main-footer {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: #f0f0f0;
+}
